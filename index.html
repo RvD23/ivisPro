@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="src/myStyle.css">
+        <meta charset="utf-8"/>
+        <style></style>
+    </head>
+    <body>
+
+    <div  style="display:none;" class="helpDiv" id="help">
+        <h1>Hilfe</h1>
+        <h2>Jahresüersicht</h2>
+        Im oberen Diagramm werden die Verkehrsunfälle für die im unteren Bereich gewählten anzuzeigenden Jahre dargestellt.<br>
+        hierbei ist zu beachten, dass die Y-Achse nicht bei null beginnt, um Differenzen einfacher erkennen zu können.<br>
+
+        <h2>Monatsverlauf</h2>
+        Im unteren Diagramm sehen sie den Verlauf der Anzahl Verkehrsunfälle auf die Monate verteilt. Die Zahlen beziehen sich auf alle gewählten Monate.<br>
+        Wenn sie ein Jahr aus dem oberen Diagramm anklicken, so wird im unteren Diagramm der verlauf für dieses Jahr angezeigt.<br>
+
+        <h2>Auswahl</h2>
+        Die anzuzeigenden Jahre können über die einzelnen Checkboxen ausgewählt werden.<br>
+        Um die Auswahl zu erleichtern, stehen die Buttons "Uncheck all" und "check all" zur Verfügung, mit welchen alle Kästchen auf ein Mal geleert oder angehakt werden können.<br>
+        Um die Auswahl zu bestätigen, muss der Button "Update" betätigt werden.
+        <input type="button" class="btn" id="btnHelpClose" value="X">
+    </div>
+
+    <script src='lib/d3.v4.js'></script>
+    <script src='lib/lodash.js'></script>
+    <script src='src/overview.js'></script>
+    </body>
+</html>
